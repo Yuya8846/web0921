@@ -121,15 +121,15 @@ onclick="saygoodbye();">
 <div id="txt1">
   <input type="button" value="テキストの変更" onclick ="txtchange1();">
   城西大学</div>
-<h1>練習問題6-10</h1>
-  <input type="button" value="画像の変更"
-     onclick="imgchange1();">
-     <img src='./image/keiei_small.jpg' id="logo" alt="josai" class="imagechange"></imgsrc>
-     <input type="button" value="元に戻す" 
-    <!-- <img src='./image/\logo.jpg' id="logo" alt="Josai Logo">-->
-</div>
+  <h1>練習問題6-10</h1>
+  <br>
+  <input type="button" value="画像の変更" onclick="imgchange1();">
+  <input type="button" value="元に戻す" onclick="imgchange2();">
+  <br>
+  <br>
+  <img src='./image/keiei_small.jpg' id="logo" alt="Logo.jpg" class="imagechange">
 <br>
-<h1>練習問題６-11</h1>
+<h1>練習問題6-11</h1>
 <form name="timer">
 <input type="button" value="スタート"
  onclick="startfnc()">
@@ -139,10 +139,13 @@ onclick="saygoodbye();">
   <form> <input type="button" value="Timer"
      onclick="setTimeout('mes()',3000)"> </form>
      <h1>練習問題6-12</h1>
-     <form name="timer2"></form>
-     <input type="button" value="スタート" onclick="hyoji2()">
-     <br> 
-     <input type="text" name="moji2" size="30" value=""> 
-    </form>
+   
+   <!--setTimeout-->
+   
+   <form name="timer1">
+     <input type="button" value="スタート" onclick="hyoji1();">
+     <br>
+     <input type="text" name="moji1" size="30" value="">
+   </form>
 </body>
 </html>
